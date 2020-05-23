@@ -1,146 +1,147 @@
 <!DOCTYPE html>
 
+
 <html>
 
-	<head>
-		<title>Introduction to Web Development</title>
-		<meta charset="UTF-8">
-	
-		<style>
-		
-		/* This is example for Universal 'Selector', applies everywhere */
-		
-		* {
-			font-family : "Comic Strip", Verdana !important;
-			}
+<head>
+<title>Introduction to Web Development</title>
+<meta charset="UTF-8">
 
-		/* These are Tag selectors, apply to all tags below */
-		
-		ul {
-			List-style-image : url("https://mdn.mozillademos.org/files/11981/starsolid.gif");
-			}
-			
-		ol {
-			List-style-type : upper-roman;
-			}
+<style>
 
-		body { 
-			color : #696969;
-			line-height : 140%;
-			}
-		
-		/* check this one, try to change display to 'block' */
-		
-		h1, h2 {
-			display : inline;
-			Background : #FFCC33;
-			}
+/* This is example for Universal 'Selector', applies everywhere */
 
-		/* Check float with left and try to remove, see how the page changes */
-		
-		img, iframe {
-			float : right;
-			}
-	
-		/* This is example for ID Selector, rather use class, but you will meet this frequently. */
+* {
+font-family : "Comic Strip", Verdana !important;
+}
 
-		/* Try out auto and visible overflow options. See how these options make the page different */
-		
-		#Introduction {
-			 padding : 5px;
-			 margin : 10px;
-			 height : 200px;
-			 width : 400px;
-			 overflow : scroll;
-			}
-		
-		/* This is where I format the links, how should it look like, what happens when it is already visited and what happens when you hoover. I stole something from CSS Zen Garden. */
-		
-		a:link { 
-			font-weight: bold; 
-			text-decoration: none; 
-			color: #B7A5DF;
-			}
-		
-		a:visited { 
-			font-weight: bold; 
-			text-decoration: none; 
-			color: #D4CDDC;
-			}
-		
-		a:hover, a:focus, a:active { 
-			text-decoration: underline; 
-			color: #9685BA;
-		}
-		
-		/*links looked super ugly without a margin so I included that. I also put in a frame to make it ugly. Let's apply this based on class. */
-		
-		.mylinks {
-			border : groove 2px #FFCC33 ;
-			border-width : 10px 10px 10px 10px;
-			margin : 30px;
-			padding : 10px;
-			font-style : italic;
-			text-decoration : blink;
-			text-align : center;
-			}
-		
-		.h2class {
-			padding-bottom : 20px;
-			overflow : visible;
-			}
-		
-		</style>
-	
+/* These are Tag selectors, apply to all tags below */
+
+ul {
+List-style-image : url("https://mdn.mozillademos.org/files/11981/starsolid.gif");
+}
+
+ol {
+List-style-type : upper-roman;
+}
+
+body {
+color : #696969;
+line-height : 140%;
+}
+
+/* check this one, try to change display to 'block' */
+
+h1, h2 {
+display : inline;
+Background : #FFCC33;
+}
+
+/* Check float with left and try to remove, see how the page changes */
+
+img, iframe {
+float : right;
+}
+
+/* This is example for ID Selector, rather use class, but you will meet this frequently. */
+
+/* Try out auto and visible overflow options. See how these options make the page different */
+
+#Introduction {
+padding : 5px;
+margin : 10px;
+height : 200px;
+width : 400px;
+overflow : scroll;
+}
+
+/* This is where I format the links, how should it look like, what happens when it is already visited and what happens when you hoover. I stole something from CSS Zen Garden. */
+
+a:link {
+font-weight: bold;
+text-decoration: none;
+color: #B7A5DF;
+}
+
+a:visited {
+font-weight: bold;
+text-decoration: none;
+color: #D4CDDC;
+}
+
+a:hover, a:focus, a:active {
+text-decoration: underline;
+color: #9685BA;
+}
+
+/*links looked super ugly without a margin so I included that. I also put in a frame to make it ugly. Let's apply this based on class. */
+
+.mylinks {
+border : groove 2px #FFCC33 ;
+border-width : 10px 10px 10px 10px;
+margin : 30px;
+padding : 10px;
+font-style : italic;
+text-decoration : blink;
+text-align : center;
+}
+
+.h2class {
+padding-bottom : 20px;
+overflow : visible;
+}
+
+</style>
+
     </head>
-	
-	<body>
-		
+
+<body>
+
         <h1>My first website</h1>
         <div id = "Introduction">
-        	<h2 class = "h2class">Introduction</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>
-				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br/>
-				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  <br/>
-				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br/>
-        	</p>
-		</div>
+        <h2 class = "h2class">Introduction</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br/>
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  <br/>
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br/>
+        </p>
+</div>
         <div>
-        	<h2 class = "h2class">Why I chose this class</h2>
-			<ol>
-				<li>Curabitur pretium tincidunt lacus. </li>
-				<li>Nulla gravida orci a odio. </li>
-				<li>Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. </li>
-				<li>Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. </li>
-			</ol>
+        <h2 class = "h2class">Why I chose this class</h2>
+<ol>
+<li>Curabitur pretium tincidunt lacus. </li>
+<li>Nulla gravida orci a odio. </li>
+<li>Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. </li>
+<li>Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. </li>
+</ol>
         </div>
         <div class="mylinks" >
-		
-			<a href ="https://openeducation.group/open-seminars/">I include this to show you how the link shows as a text.</a>
-		
-		</div>
-		
+
+<a href ="https://openeducation.group/open-seminars/">I include this to show you how the link shows as a text.</a>
+
+</div>
+
         <div>
-	        <h2>Previous experience in the topic</h2>
-			<ul>
-				<li>Donec lobortis risus a elit. </li>
-				<li>Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. </li>
-				<li>Maecenas fermentum consequat mi. </li>
-				<li>Donec fermentum. </li>
-				<li>Pellentesque malesuada nulla a mi.</li>
-				<li>Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque.</li>
-				<li>I checked the code of a few website</li>
-	        </ul>
-		</div>
-        
+       <h2>Previous experience in the topic</h2>
+<ul>
+<li>Donec lobortis risus a elit. </li>
+<li>Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. </li>
+<li>Maecenas fermentum consequat mi. </li>
+<li>Donec fermentum. </li>
+<li>Pellentesque malesuada nulla a mi.</li>
+<li>Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque.</li>
+<li>I checked the code of a few website</li>
+       </ul>
+</div>
+       
         <h2 class = "h2class">My image and favourite music</h2>                
         <img src="http://webdev-olive-2020.github.io/sample.jpg" alt="This is a picture of me" title="Miki"/>
-		<iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-		</iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
         <a target="_blank" href="https://openeducation.group/open-seminars/">
-			<img src = "https://openeducationgroup.files.wordpress.com/2020/01/copy-of-olivelogo_extended.png?w=1024&h=498" width="20%" alt="OLIve Logo" title="Click to go to the OLIve website"/>
-		</a>
+<img src = "https://openeducationgroup.files.wordpress.com/2020/01/copy-of-olivelogo_extended.png?w=1024&h=498" width="20%" alt="OLIve Logo" title="Click to go to the OLIve website"/>
+</a>
 
-	</body>
+</body>
 
 </html>
